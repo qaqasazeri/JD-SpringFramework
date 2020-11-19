@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <thead>
+    </tr>
+    <td>First Name</td>
+    <td>Last Name</td>
+    <td>Email</td>
+    <td>Graduated</td>
+    <td>Gender</td>
+    <td>Batch Number</td>
+    <td>Company</td>
+    </thead>
+    </tr>
+<tr>
+    <td th:text="${mentor.firstName}"></td>
+    <td th:text="${mentor.lastName}"></td>
+    <td th:text="${mentor.email}"></td>
+    <td th:text="${mentor.graduated}"></td>
+    <td th:text="${mentor.gender}"></td>
+    <td th:text="${mentor.batch}"></td>
+    <td th:text="${mentor.company}"></td>
+</tr>
+
+</table>
+
+</body>
+</html>
