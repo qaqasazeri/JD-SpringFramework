@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Spring-04-BeanLifCycle/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-02-DI-SetterInjection/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-05-JavaAnnotations-Value/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-02-DI-ConstructoInjection/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-05-JavaAnnotations-AutoWired/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-05-JavaAnnotations-Component/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-05-JavaAnnotations-Qualifier/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-03-BeanScope-SingleTon-Prototype/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-09-ORM-TableCreation/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
