@@ -2,19 +2,23 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Spring-03-BeanScope-SingleTon-Prototype" />
-        <module name="Spring-05-JavaAnnotations-Component" />
         <module name="Spring-09-ORM-TableCreation" />
-        <module name="Spring-04-BeanLifCycle" />
         <module name="Spring-05-JavaAnnotations-AutoWired" />
+        <module name="Spring-09-ORM-OneToMany" />
         <module name="Spring-02-DI-SetterInjection" />
         <module name="Spring-06-JavaCode-Configuration" />
-        <module name="Spring-05-Value" />
         <module name="Spring-02-DI-ConstructoInjection" />
+        <module name="Spring-03-BeanScope-SingleTon-Prototype" />
+        <module name="Spring-09-ORM-ManyToOne" />
+        <module name="Spring-05-JavaAnnotations-Component" />
+        <module name="Spring-09-ORM-Mapping-OneToOne" />
+        <module name="Spring-04-BeanLifCycle" />
+        <module name="Spring-05-Value" />
         <module name="Spring-05-JavaAnnotations-Qualifier" />
       </profile>
     </annotationProcessing>
@@ -28,11 +32,17 @@
       <module name="Spring-05-JavaAnnotations-Qualifier" target="1.5" />
       <module name="Spring-05-Value" target="1.5" />
       <module name="Spring-06-JavaCode-Configuration" target="1.5" />
+      <module name="Spring-09-ORM-ManyToOne" target="11" />
+      <module name="Spring-09-ORM-Mapping-OneToOne" target="11" />
+      <module name="Spring-09-ORM-OneToMany" target="11" />
       <module name="Spring-09-ORM-TableCreation" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring-09-ORM-ManyToOne" options="-parameters" />
+      <module name="Spring-09-ORM-Mapping-OneToOne" options="-parameters" />
+      <module name="Spring-09-ORM-OneToMany" options="-parameters" />
       <module name="Spring-09-ORM-TableCreation" options="-parameters" />
     </option>
   </component>
