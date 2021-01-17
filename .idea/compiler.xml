@@ -19,6 +19,7 @@
         <module name="Spring-05-JavaAnnotations-Component" />
         <module name="Spring-09-ORM-Mapping-OneToOne" />
         <module name="Spring-04-BeanLifCycle" />
+        <module name="Spring-10-Security-DefaultConfig" />
         <module name="Spring-05-Value" />
         <module name="orm2" />
         <module name="orm3" />
@@ -42,6 +43,7 @@
       <module name="Spring-09-ORM-Mapping-OneToOne" target="11" />
       <module name="Spring-09-ORM-OneToMany" target="11" />
       <module name="Spring-09-ORM-TableCreation" target="11" />
+      <module name="Spring-10-Security-DefaultConfig" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -50,6 +52,7 @@
       <module name="Spring-09-ORM-Mapping-OneToOne" options="-parameters" />
       <module name="Spring-09-ORM-OneToMany" options="-parameters" />
       <module name="Spring-09-ORM-TableCreation" options="-parameters" />
+      <module name="Spring-10-Security-DefaultConfig" options="-parameters" />
       <module name="orm2" options="-parameters" />
       <module name="orm3" options="-parameters" />
       <module name="ormonetomany" options="-parameters" />
