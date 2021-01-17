@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/Spring-09-ORM-ManyToOne/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-09-ORM-OneToMany/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-10-Security-DefaultConfig/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-10-Security-CustomConfig/pom.xml" />
       </list>
     </option>
   </component>

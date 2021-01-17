@@ -17,6 +17,7 @@
         <module name="Spring-09-ORM-ManyToOne" />
         <module name="ormonetomany" />
         <module name="Spring-05-JavaAnnotations-Component" />
+        <module name="Spring-10-Security-CustomConfig" />
         <module name="Spring-09-ORM-Mapping-OneToOne" />
         <module name="Spring-04-BeanLifCycle" />
         <module name="Spring-10-Security-DefaultConfig" />
@@ -43,6 +44,7 @@
       <module name="Spring-09-ORM-Mapping-OneToOne" target="11" />
       <module name="Spring-09-ORM-OneToMany" target="11" />
       <module name="Spring-09-ORM-TableCreation" target="11" />
+      <module name="Spring-10-Security-CustomConfig" target="11" />
       <module name="Spring-10-Security-DefaultConfig" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -52,6 +54,7 @@
       <module name="Spring-09-ORM-Mapping-OneToOne" options="-parameters" />
       <module name="Spring-09-ORM-OneToMany" options="-parameters" />
       <module name="Spring-09-ORM-TableCreation" options="-parameters" />
+      <module name="Spring-10-Security-CustomConfig" options="-parameters" />
       <module name="Spring-10-Security-DefaultConfig" options="-parameters" />
       <module name="orm2" options="-parameters" />
       <module name="orm3" options="-parameters" />
