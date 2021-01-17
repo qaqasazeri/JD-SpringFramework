@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Spring-10-Security-HttpBasic-AuthRoleBase" />
         <module name="Spring-09-ORM-TableCreation" />
         <module name="Spring-05-JavaAnnotations-AutoWired" />
         <module name="Spring-09-ORM-OneToMany" />
@@ -46,6 +47,7 @@
       <module name="Spring-09-ORM-TableCreation" target="11" />
       <module name="Spring-10-Security-CustomConfig" target="11" />
       <module name="Spring-10-Security-DefaultConfig" target="11" />
+      <module name="Spring-10-Security-HttpBasic-AuthRoleBase" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -56,6 +58,7 @@
       <module name="Spring-09-ORM-TableCreation" options="-parameters" />
       <module name="Spring-10-Security-CustomConfig" options="-parameters" />
       <module name="Spring-10-Security-DefaultConfig" options="-parameters" />
+      <module name="Spring-10-Security-HttpBasic-AuthRoleBase" options="-parameters" />
       <module name="orm2" options="-parameters" />
       <module name="orm3" options="-parameters" />
       <module name="ormonetomany" options="-parameters" />
