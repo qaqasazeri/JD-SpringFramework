@@ -15,14 +15,20 @@
         <module name="Spring-02-DI-ConstructoInjection" />
         <module name="Spring-03-BeanScope-SingleTon-Prototype" />
         <module name="Spring-09-ORM-ManyToOne" />
+        <module name="ormonetomany" />
         <module name="Spring-05-JavaAnnotations-Component" />
         <module name="Spring-09-ORM-Mapping-OneToOne" />
         <module name="Spring-04-BeanLifCycle" />
         <module name="Spring-05-Value" />
+        <module name="orm2" />
+        <module name="orm3" />
         <module name="Spring-05-JavaAnnotations-Qualifier" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="orm2" target="11" />
+      <module name="orm3" target="11" />
+      <module name="ormonetomany" target="11" />
       <module name="Spring-02-DI-ConstructoInjection" target="1.5" />
       <module name="Spring-02-DI-SetterInjection" target="1.5" />
       <module name="Spring-03-BeanScope-SingleTon-Prototype" target="1.5" />
@@ -44,6 +50,9 @@
       <module name="Spring-09-ORM-Mapping-OneToOne" options="-parameters" />
       <module name="Spring-09-ORM-OneToMany" options="-parameters" />
       <module name="Spring-09-ORM-TableCreation" options="-parameters" />
+      <module name="orm2" options="-parameters" />
+      <module name="orm3" options="-parameters" />
+      <module name="ormonetomany" options="-parameters" />
     </option>
   </component>
 </project>
