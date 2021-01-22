@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-10-Security-HttpBasic-AuthRoleBase" />
         <module name="Spring-09-ORM-TableCreation" />
+        <module name="Spring-10-Security-FormAuth" />
         <module name="Spring-05-JavaAnnotations-AutoWired" />
         <module name="Spring-09-ORM-OneToMany" />
         <module name="Spring-02-DI-SetterInjection" />
@@ -22,11 +23,11 @@
         <module name="Spring-09-ORM-Mapping-OneToOne" />
         <module name="Spring-04-BeanLifCycle" />
         <module name="Spring-10-Security-DefaultConfig" />
-        <module name="Spring-10-Security-HttpBasic-Datasbase" />
         <module name="Spring-05-Value" />
         <module name="orm2" />
         <module name="orm3" />
         <module name="Spring-05-JavaAnnotations-Qualifier" />
+        <module name="Spring-10-Security-HttpBasic-Database" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -48,8 +49,9 @@
       <module name="Spring-09-ORM-TableCreation" target="11" />
       <module name="Spring-10-Security-CustomConfig" target="11" />
       <module name="Spring-10-Security-DefaultConfig" target="11" />
+      <module name="Spring-10-Security-FormAuth" target="11" />
       <module name="Spring-10-Security-HttpBasic-AuthRoleBase" target="11" />
-      <module name="Spring-10-Security-HttpBasic-Datasbase" target="11" />
+      <module name="Spring-10-Security-HttpBasic-Database" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -60,8 +62,9 @@
       <module name="Spring-09-ORM-TableCreation" options="-parameters" />
       <module name="Spring-10-Security-CustomConfig" options="-parameters" />
       <module name="Spring-10-Security-DefaultConfig" options="-parameters" />
+      <module name="Spring-10-Security-FormAuth" options="-parameters" />
       <module name="Spring-10-Security-HttpBasic-AuthRoleBase" options="-parameters" />
-      <module name="Spring-10-Security-HttpBasic-Datasbase" options="-parameters" />
+      <module name="Spring-10-Security-HttpBasic-Database" options="-parameters" />
       <module name="orm2" options="-parameters" />
       <module name="orm3" options="-parameters" />
       <module name="ormonetomany" options="-parameters" />

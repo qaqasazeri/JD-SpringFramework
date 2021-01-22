@@ -7,7 +7,8 @@
     <file url="file://$PROJECT_DIR$/Spring-09-ORM-TableCreation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-10-Security-CustomConfig/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-10-Security-DefaultConfig/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-10-Security-FormAuth/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-10-Security-HttpBasic-AuthRoleBase/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Spring-10-Security-HttpBasic-Datasbase/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-10-Security-HttpBasic-Database/src/main/java" charset="UTF-8" />
   </component>
 </project>

@@ -18,8 +18,9 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-TableCreation/Spring-09-ORM-TableCreation.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-TableCreation/Spring-09-ORM-TableCreation.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-10-Security-CustomConfig/Spring-10-Security-CustomConfig.iml" filepath="$PROJECT_DIR$/Spring-10-Security-CustomConfig/Spring-10-Security-CustomConfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-10-Security-DefaultConfig/Spring-10-Security-DefaultConfig.iml" filepath="$PROJECT_DIR$/Spring-10-Security-DefaultConfig/Spring-10-Security-DefaultConfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-10-Security-FormAuth/Spring-10-Security-FormAuth.iml" filepath="$PROJECT_DIR$/Spring-10-Security-FormAuth/Spring-10-Security-FormAuth.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-10-Security-HttpBasic-AuthRoleBase/Spring-10-Security-HttpBasic-AuthRoleBase.iml" filepath="$PROJECT_DIR$/Spring-10-Security-HttpBasic-AuthRoleBase/Spring-10-Security-HttpBasic-AuthRoleBase.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Spring-10-Security-HttpBasic-Datasbase/Spring-10-Security-HttpBasic-Datasbase.iml" filepath="$PROJECT_DIR$/Spring-10-Security-HttpBasic-Datasbase/Spring-10-Security-HttpBasic-Datasbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-10-Security-HttpBasic-Database/Spring-10-Security-HttpBasic-Database.iml" filepath="$PROJECT_DIR$/Spring-10-Security-HttpBasic-Database/Spring-10-Security-HttpBasic-Database.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-Mapping-OneToOne/orm2.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-Mapping-OneToOne/orm2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-ManyToOne/orm3.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-ManyToOne/orm3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-OneToMany/ormonetomany.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-OneToMany/ormonetomany.iml" />
