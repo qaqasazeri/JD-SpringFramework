@@ -26,7 +26,7 @@ public class DataGenerator implements CommandLineRunner {
     public void run(String... args) throws Exception {
         this.userRepository.deleteAll();
 
-        User employee = new User("fs", passwordEncoder.encode("yasa"), "USER", " ");
+        User employee = new User("fsafar", passwordEncoder.encode("yasam"), "USER", "");
         User admin = new User("admin", passwordEncoder.encode("ad123"), "ADMIN", "ACCESS_TEST1,ACCESS_TEST2");
         User manager = new User("manager", passwordEncoder.encode("man123"), "MANAGER", "ACCESS_TEST1");
 
