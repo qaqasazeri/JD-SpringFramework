@@ -14,6 +14,7 @@
         <module name="Spring-09-ORM-OneToMany" />
         <module name="Spring-02-DI-SetterInjection" />
         <module name="Spring-06-JavaCode-Configuration" />
+        <module name="Spring-11-Rest-HttpVerbs-Legacy" />
         <module name="Spring-02-DI-ConstructoInjection" />
         <module name="Spring-03-BeanScope-SingleTon-Prototype" />
         <module name="Spring-09-ORM-ManyToOne" />
@@ -52,6 +53,7 @@
       <module name="Spring-10-Security-FormAuth" target="11" />
       <module name="Spring-10-Security-HttpBasic-AuthRoleBase" target="11" />
       <module name="Spring-10-Security-HttpBasic-Database" target="11" />
+      <module name="Spring-11-Rest-HttpVerbs-Legacy" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -65,6 +67,7 @@
       <module name="Spring-10-Security-FormAuth" options="-parameters" />
       <module name="Spring-10-Security-HttpBasic-AuthRoleBase" options="-parameters" />
       <module name="Spring-10-Security-HttpBasic-Database" options="-parameters" />
+      <module name="Spring-11-Rest-HttpVerbs-Legacy" options="-parameters" />
       <module name="orm2" options="-parameters" />
       <module name="orm3" options="-parameters" />
       <module name="ormonetomany" options="-parameters" />
