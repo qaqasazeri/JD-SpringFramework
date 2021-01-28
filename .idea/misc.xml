@@ -22,6 +22,8 @@
         <option value="$PROJECT_DIR$/Spring-10-Security-HttpBasic-Datasbase/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-10-Security-FromAuth/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-11-Rest-HttpVerbs-Legacy/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-11-Rest-HttpVerbs-Preferred/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-11-Rest-ResponseEntity/pom.xml" />
       </list>
     </option>
   </component>

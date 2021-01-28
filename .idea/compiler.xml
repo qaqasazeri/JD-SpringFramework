@@ -8,8 +8,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-10-Security-HttpBasic-AuthRoleBase" />
+        <module name="Spring-11-Rest-ResponseEntity" />
         <module name="Spring-09-ORM-TableCreation" />
         <module name="Spring-10-Security-FormAuth" />
+        <module name="Spring-11-Rest-HttpVerbs-Preferred" />
         <module name="Spring-05-JavaAnnotations-AutoWired" />
         <module name="Spring-09-ORM-OneToMany" />
         <module name="Spring-02-DI-SetterInjection" />
@@ -54,6 +56,8 @@
       <module name="Spring-10-Security-HttpBasic-AuthRoleBase" target="11" />
       <module name="Spring-10-Security-HttpBasic-Database" target="11" />
       <module name="Spring-11-Rest-HttpVerbs-Legacy" target="11" />
+      <module name="Spring-11-Rest-HttpVerbs-Preferred" target="11" />
+      <module name="Spring-11-Rest-ResponseEntity" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -68,6 +72,8 @@
       <module name="Spring-10-Security-HttpBasic-AuthRoleBase" options="-parameters" />
       <module name="Spring-10-Security-HttpBasic-Database" options="-parameters" />
       <module name="Spring-11-Rest-HttpVerbs-Legacy" options="-parameters" />
+      <module name="Spring-11-Rest-HttpVerbs-Preferred" options="-parameters" />
+      <module name="Spring-11-Rest-ResponseEntity" options="-parameters" />
       <module name="orm2" options="-parameters" />
       <module name="orm3" options="-parameters" />
       <module name="ormonetomany" options="-parameters" />
