@@ -2,6 +2,7 @@ package com.cybertek.entity;
 
 import com.cybertek.enums.MovieState;
 import com.cybertek.enums.MovieType;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -17,6 +18,7 @@ import java.util.Set;
 @Getter
 @Setter
 @NoArgsConstructor
+@JsonIgnoreProperties(value={"hibernateLazyInitializer"},ignoreUnknown = true)
 public class Movie extends BaseEntity {
 
     private String name;
