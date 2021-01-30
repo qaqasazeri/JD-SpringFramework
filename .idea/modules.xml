@@ -26,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-Jackson/Spring-11-Rest-Jackson.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-Jackson/Spring-11-Rest-Jackson.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-ResponseEntity/Spring-11-Rest-ResponseEntity.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-ResponseEntity/Spring-11-Rest-ResponseEntity.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-RestTemplate/Spring-11-Rest-RestTemplate.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-RestTemplate/Spring-11-Rest-RestTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-SchoolLab/Spring-11-Rest-SchoolLab.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-SchoolLab/Spring-11-Rest-SchoolLab.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-Mapping-OneToOne/orm2.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-Mapping-OneToOne/orm2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-ManyToOne/orm3.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-ManyToOne/orm3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-OneToMany/ormonetomany.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-OneToMany/ormonetomany.iml" />
