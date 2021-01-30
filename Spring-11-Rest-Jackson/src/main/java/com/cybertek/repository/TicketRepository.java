@@ -11,7 +11,7 @@ import java.util.List;
 
 public interface TicketRepository extends JpaRepository<Ticket, Long> {
 
-    // ------------------- DERIVED QUERIES ------------------- //
+   /* // ------------------- DERIVED QUERIES ------------------- //
     //Write a derived query to count how many tickets a user bought
     Integer countAllByUserId(Long userId);
 
@@ -59,5 +59,5 @@ public interface TicketRepository extends JpaRepository<Ticket, Long> {
            "Join movie_ciname mc ON mc.id=ticket.movie_cinema_id"+
            "Join movie m On m.id=mc.movie_id"+
            "where ua.username ILIKE concat('%,?1,'%')or ad.name ILIKE concat('%,?1,'%') orm.name ILIKE concat('%,?1,'%') ", nativeQuery = true)
-    List<Ticket> retrieveAllBySearchCriteria();
+    List<Ticket> retrieveAllBySearchCriteria();*/
 }

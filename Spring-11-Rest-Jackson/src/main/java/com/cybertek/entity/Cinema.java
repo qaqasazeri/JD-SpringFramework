@@ -16,7 +16,7 @@ import javax.persistence.ManyToOne;
 @Getter
 @Setter
 @NoArgsConstructor
-@JsonIgnoreProperties(value={"hibernateLazyInitializer"},ignoreUnknown = true)
+@JsonIgnoreProperties(value={"hibernate_Lazy_Initializer"},ignoreUnknown = true)
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 public class Cinema extends BaseEntity {
 

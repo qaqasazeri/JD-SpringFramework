@@ -18,7 +18,7 @@ import java.util.Set;
 @Getter
 @Setter
 @NoArgsConstructor
-@JsonIgnoreProperties(value={"hibernateLazyInitializer"},ignoreUnknown = true)
+@JsonIgnoreProperties(value={"hibernate_Lazy_Initializer"},ignoreUnknown = true)
 public class Movie extends BaseEntity {
 
     private String name;

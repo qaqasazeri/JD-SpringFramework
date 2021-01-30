@@ -12,7 +12,7 @@ import java.math.BigDecimal;
 @Getter
 @Setter
 @NoArgsConstructor
-@JsonIgnoreProperties(value={"hibernateLazyInitializer"},ignoreUnknown = true)
+@JsonIgnoreProperties(value={"hibernate_Lazy_Initializer"},ignoreUnknown = true)
 public class Location extends BaseEntity{
     private String name;
     private BigDecimal latitude;
