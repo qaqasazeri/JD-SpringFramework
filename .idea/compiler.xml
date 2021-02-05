@@ -24,6 +24,7 @@
         <module name="Spring-02-DI-SetterInjection" />
         <module name="Spring-09-ORM-ManyToOne" />
         <module name="ormonetomany" />
+        <module name="Spring-11-Rest-OpenApi3.0" />
         <module name="Spring-05-JavaAnnotations-Component" />
         <module name="Spring-10-Security-CustomConfig" />
         <module name="Spring-09-ORM-Mapping-OneToOne" />
@@ -61,6 +62,7 @@
       <module name="Spring-11-Rest-HttpVerbs-Legacy" target="11" />
       <module name="Spring-11-Rest-HttpVerbs-Preferred" target="11" />
       <module name="Spring-11-Rest-Jackson" target="11" />
+      <module name="Spring-11-Rest-OpenApi3.0" target="11" />
       <module name="Spring-11-Rest-ResponseEntity" target="11" />
       <module name="Spring-11-Rest-RestTemplate" target="11" />
       <module name="Spring-11-Rest-SchoolLab" target="11" />
@@ -80,6 +82,7 @@
       <module name="Spring-11-Rest-HttpVerbs-Legacy" options="-parameters" />
       <module name="Spring-11-Rest-HttpVerbs-Preferred" options="-parameters" />
       <module name="Spring-11-Rest-Jackson" options="-parameters" />
+      <module name="Spring-11-Rest-OpenApi3.0" options="-parameters" />
       <module name="Spring-11-Rest-ResponseEntity" options="-parameters" />
       <module name="Spring-11-Rest-RestTemplate" options="-parameters" />
       <module name="Spring-11-Rest-SchoolLab" options="-parameters" />
