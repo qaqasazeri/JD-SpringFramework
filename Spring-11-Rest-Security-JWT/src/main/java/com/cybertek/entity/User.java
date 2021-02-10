@@ -15,7 +15,7 @@ import javax.persistence.*;
 @Setter
 @NoArgsConstructor
 @Where(clause = "is_deleted=false")
-public class User extends BaseEntity {
+public class User extends BaseEntity{
 
     @Column(nullable = false,unique = true)
     private String email;

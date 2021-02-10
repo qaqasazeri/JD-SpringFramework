@@ -1,5 +1,4 @@
 package com.cybertek.service;
-
 import com.cybertek.entity.User;
 import com.cybertek.enums.UserState;
 import com.cybertek.repository.UserRepository;
@@ -12,7 +11,6 @@ import java.util.List;
 
 @Service
 public class UserService {
-
     private final UserRepository userRepository;
     private final BCryptPasswordEncoder bCryptPasswordEncoder;
 

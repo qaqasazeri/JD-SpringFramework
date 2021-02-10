@@ -1,5 +1,4 @@
 package com.cybertek.service;
-
 import com.cybertek.entity.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -11,10 +10,8 @@ import org.springframework.stereotype.Service;
 import java.nio.file.attribute.UserPrincipal;
 import java.util.ArrayList;
 import java.util.List;
-
 @Service
 public class SecurityService implements UserDetailsService {
-
     private UserService userService;
 
     public SecurityService(UserService userService) {
@@ -42,6 +39,5 @@ public class SecurityService implements UserDetailsService {
         grantedAuthorityList.add(new SimpleGrantedAuthority(user.getRole().name()));
         return grantedAuthorityList;
     }
-
 
 }
