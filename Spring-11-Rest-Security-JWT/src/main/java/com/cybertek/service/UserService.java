@@ -1,8 +1,8 @@
 package com.cybertek.service;
 import com.cybertek.entity.User;
 import com.cybertek.enums.UserState;
+import com.cybertek.exception.ServiceException;
 import com.cybertek.repository.UserRepository;
-import org.hibernate.service.spi.ServiceException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -42,6 +42,7 @@ public class UserService {
 
         user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
         user.setIsVerified(false);
+        user.setIsDeleted(false);
         return userRepository.save(user);
     }
 
@@ -62,7 +63,7 @@ public class UserService {
         userRepository.save(user);
     }
     @Transactional
-    public User resetPassword(User user) throws ServiceException {
+    public User resetPassword(User user) throws com.cybertek.exception.ServiceException {
 
         User foundUser = userRepository.findByEmail(user.getEmail()).orElse(null);
         if (foundUser == null) {
