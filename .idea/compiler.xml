@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-10-Security-HttpBasic-AuthRoleBase" />
+        <module name="Spring-12-AOP" />
         <module name="Spring-09-ORM-TableCreation" />
         <module name="Spring-11-Rest-HttpVerbs-Preferred" />
         <module name="Spring-06-JavaCode-Configuration" />
@@ -68,6 +69,7 @@
       <module name="Spring-11-Rest-RestTemplate" target="11" />
       <module name="Spring-11-Rest-SchoolLab" target="11" />
       <module name="Spring-11-Rest-Security-JWT" target="11" />
+      <module name="Spring-12-AOP" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -89,6 +91,7 @@
       <module name="Spring-11-Rest-RestTemplate" options="-parameters" />
       <module name="Spring-11-Rest-SchoolLab" options="-parameters" />
       <module name="Spring-11-Rest-Security-JWT" options="-parameters" />
+      <module name="Spring-12-AOP" options="-parameters" />
       <module name="orm2" options="-parameters" />
       <module name="orm3" options="-parameters" />
       <module name="ormonetomany" options="-parameters" />
