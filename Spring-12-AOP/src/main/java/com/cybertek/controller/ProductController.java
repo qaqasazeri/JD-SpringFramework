@@ -26,22 +26,19 @@ public class ProductController {
 
     @GetMapping
     public  List<Product> getProducts(){
+
+
         List<Product> list = productService.getProducts();
+
+
         return list;
+//        return list;
     }
 
 
-
     @PostMapping
-    public  ResponseEntity<List<Product>> createProduct(@RequestBody Product product){
-
-        List<Product> set = productService.createProduct(product);
-
-        return ResponseEntity
-                .status(HttpStatus.CREATED)
-                .header("Version","Cybertek.V1")
-                .header("Operation","Create")
-                .body(set);
+    public List<Product> createProduct(@RequestBody Product product){
+        return productService.createProduct(product);
     }
 
     @DeleteMapping(value = "/{id}")
@@ -79,6 +76,8 @@ public class ProductController {
         return productService.getProduct(id);
     }
 
+
+
     @GetMapping("/read")
     public ResponseEntity<ResponseWrapper> readAllProducts(){
         return ResponseEntity
@@ -94,5 +93,6 @@ public class ProductController {
     public ResponseEntity<ResponseWrapper> deleteProduct3(@PathVariable("id") long id){
         return ResponseEntity.status(HttpStatus.ACCEPTED).body(new ResponseWrapper("product successfully deleted"));
     }
+
 
 }
