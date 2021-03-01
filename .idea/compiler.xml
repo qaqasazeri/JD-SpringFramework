@@ -31,6 +31,7 @@
         <module name="Spring-10-Security-CustomConfig" />
         <module name="Spring-09-ORM-Mapping-OneToOne" />
         <module name="Spring-04-BeanLifCycle" />
+        <module name="Spring-13-UnitTesting-Junit5" />
         <module name="Spring-05-Value" />
         <module name="Spring-11-Rest-RestTemplate" />
         <module name="orm2" />
@@ -70,6 +71,7 @@
       <module name="Spring-11-Rest-SchoolLab" target="11" />
       <module name="Spring-11-Rest-Security-JWT" target="11" />
       <module name="Spring-12-AOP" target="11" />
+      <module name="Spring-13-UnitTesting-Junit5" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
